@@ -10,9 +10,7 @@ body {
 	width: 1170px;
 	margin: auto;
 }
-header {
 
-}
 .nav-area {
 	float: right;
 	list-style: none;
@@ -44,21 +42,22 @@ header {
 
 .info{
 	color: white;
-	background-color:;
+	
 }
 
 .infoTitles{
-		margin-left: auto;
+	margin-left: auto;
     margin-right: 900px;
 	margin: auto;
 	text-align: center;
-
 	width: 800px;	
 }
- p{	 
+
+p{	 
 	margin: 16px;
 	text-align: center;
- }
+}
+
 article {
 	text-align: center;
 	font-size: 30px;
