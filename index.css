@@ -1,21 +1,24 @@
-* {
-	margin: 0;
-	padding: 0;
-}
 body {
 	font-family: 'Libre Baskerville', serif;
+		margin: 0;
+	padding: 0;
 }
+
 .wrapper {
 	width: 1170px;
 	margin: auto;
 }
+
 header {
-	background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(https://www.pngkey.com/png/full/65-659045_forest-png-free-image-forest-vector-png.png);
-	height: 100vh;
+	background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(https://cdn.britannica.com/67/19367-050-885866B4/Valley-Taurus-Mountains-Turkey.jpg);
+	height: 100%;
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-position: center;
+	position: scroll;
 	background-size: cover;
-	background-position: center center;
-	position: relative;
 }
+
 .nav-area {
 	float: right;
 	list-style: none;

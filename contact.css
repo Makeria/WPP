@@ -11,11 +11,7 @@ body {
 	margin: auto;
 }
 header {
-	background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(https://www.pngkey.com/png/full/65-659045_forest-png-free-image-forest-vector-png.png);
-	height: 100vh;
-	background-size: cover;
-	background-position: center center;
-	position: relative;
+
 }
 .nav-area {
 	float: right;
@@ -47,18 +43,17 @@ header {
 }
 
 .info{
-	color: slategray;
+	color: white;
 	background-color:;
 }
 
 .infoTitles{
-	color: #669999;
-	background-color: ;
-	font-size: 45px;
-	text-decoration: underline;
-	font-family: arial;
+		margin-left: auto;
+    margin-right: 900px;
+	margin: auto;
 	text-align: center;
 
+	width: 800px;	
 }
  p{	 
 	margin: 16px;
@@ -66,6 +61,6 @@ header {
  }
 article {
 	text-align: center;
-	font-size: 38px;
+	font-size: 30px;
 }
  

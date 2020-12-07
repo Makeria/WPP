@@ -1,81 +1,44 @@
-* {
-	margin: 0;
-	padding: 0;
+div
+{
+    color: white;
 }
-body {
-	font-family: 'Libre Baskerville', serif;
-	
-}
-.wrapper {
-	width: 1170px;
+
+P {
+	padding-top: 2px;
+	padding-bottom: 2px;
 	margin: auto;
-}
-header {
-	background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(https://www.pngkey.com/png/full/65-659045_forest-png-free-image-forest-vector-png.png);
-	height: 100vh;
-	background-size: cover;
-	background-position: center center;
-	position: relative;
-}
-.nav-area {
-	float: right;
-	list-style: none;
-	margin-top: 30px;
-}
-.nav-area li {
-	display: inline-block;
-}
-.nav-area li a {
-	color: #fff;
-	text-decoration: none;
-	padding: 5px 20px;
-	font-family: poppins;
-	font-size: 16px;
-	text-transform: uppercase;
-}
-.nav-area li a:hover {
-	background: #fff;
-	color: #333;
-}
-.logo {
-	float: left;
-}
-.logo img {
-	width: 100%;
-	padding: 15px 0;
-
-}
-
-.info{
-	color: slategray;
-	background-color:;
-}
-
-.infoTitles{
-	color: #669999;
-	background-color: ;
-	font-size: 20px;
-	text-decoration: underline;
-	font-family: arial;
-	text-align: center;
-
-}
- p{	 
-	margin: 16px;
+	text-align: justify;
+	border-style: double;
+	width: 1300px;
 	
- }
- sector {
-	 position: centered;
-	 margin: auto;
+	
+	}
 
- }
-  article { 
-  	text-align: center;
-  }
- .iframe-container{
-	padding: 5px 20px;
- }
- 
- .iframe-container iframe{
+.infoTitles {
+	color: #696969;
+	font-size: 30px;
+    text-transform: uppercase;
+  font-weight: normal;
+  line-height: 1;
+  text-align: center;
+  margin: 0px 0 0;
+  padding-top: 0px; 
+  padding-bottom: 0px;
+}
 
- }
+.iframe-container {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+header {
+	background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(https://cdn.britannica.com/67/19367-050-885866B4/Valley-Taurus-Mountains-Turkey.jpg);
+	height: 100%;
+	background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center;
+  position: scroll;
+  background-size: cover;
+}
